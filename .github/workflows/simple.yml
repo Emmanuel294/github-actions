@@ -19,6 +19,10 @@ jobs:
         shell: python
   run-windows-command:
     runs-on: windows-latest
+    needs: ['run-shell-command']
     steps:
       - name: Directory Pwershell
         run: Get-Location
+      - name: Directory Bash
+        run: pwd
+        shell: bash
