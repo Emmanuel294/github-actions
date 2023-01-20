@@ -1,0 +1,22 @@
+name: Emmanuel
+age: 25
+address: 'Delf Zam:  #10'
+active: true
+key:
+  key: value
+  ke2: 33
+  key3: 
+    key: value
+    key2: value
+jsonObject: { key: value, key2: 33, key3: { key: value, key2: value}}
+array:
+  - item1,
+  - item2,
+  - {key: value}
+objectsArray: 
+  - key: value
+  - key: value
+longText: >_ asdlfhlashfloijasoidfj
+    sadfklasjf
+    asdfijpoaisdjgjasdgjoiasdjgfoijf
+    asdfiojasodfjoiasdf lsajdfjasdoifj 
