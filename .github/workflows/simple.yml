@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
-        run: eccho "Some string"
+        run: echo "Some string"
       - name: multiline script
         run: |
           node -v
