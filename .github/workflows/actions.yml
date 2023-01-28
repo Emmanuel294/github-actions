@@ -1,7 +1,7 @@
 name: Actions Workflow
 
 on: 
-  push:
+  pull_request:
     branches:
       - master
       - 'feature/*' # matches all inside feature/
