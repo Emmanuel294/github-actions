@@ -11,12 +11,12 @@ jobs:
       - name: Log node Version
         run: node -v
       - name: Step with docker
-        uses: docker://node:14-alphine3.17
+        uses: docker://node:13.5.0-alpine3.10
         with: 
           entrypoint: '/bin/echo'
           args: 'Hello World'
       - name: Log node Version
-        uses: docker://node:14-alphine3.17
+        uses: docker://node:13.5.0-alpine3.10
         with: 
           entrypoint: /usr/local/bin/node
           args: '-v'
